@@ -155,8 +155,10 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     background-color: lightskyblue;
+    transition-duration: 1000ms;
 }
 
 .box:hover {
     background-color: rgb(88, 189, 252);
+    border-radius: 50%;
 }
