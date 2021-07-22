@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro:200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,900,900italic");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital@1&display=swap");
 
 /* reset css*/
 
@@ -95,7 +95,6 @@ video {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Source Code Pro';
 }
 
 
@@ -144,35 +143,15 @@ table {
     border-spacing: 0;
 }
 
-h1 {}
-
 .box {
     width: 100px;
     height: 50px;
     cursor: pointer;
+    background-color: #ffc;
     transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.01, 0.74, 0.58, 1);
 }
 
 .box:hover {
     width: 100%;
-}
-
-.one {
-    background-color: #e0c3fc;
-    transition-timing-function: linear;
-}
-
-.two {
-    background-color: #dab6fc;
-    transition-timing-function: ease-in;
-}
-
-.three {
-    background-color: #bbadff;
-    transition-timing-function: ease-out;
-}
-
-.four {
-    background-color: #9fa0ff;
-    transition-timing-function: ease-in-out;
 }
