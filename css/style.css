@@ -153,6 +153,7 @@ h1 {
     background-color: lightskyblue;
     transition-duration: 1000ms;
     transition-property: border-radius, transform;
+    transition-delay: 1s 2s;
 }
 
 .box:hover {
